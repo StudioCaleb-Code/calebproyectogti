@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="/css/form.css">
+
+<div class="container-flex">
+    <div class="form-card">
+        <h2 class="form-title">
+            <i class="bi bi-plus-circle"></i> Proveedor
+        </h2>
+
+        <form id="proveedor-form">
+            <input type="hidden" id="proveedor-id">
+
+            <div class="input-group">
+                <label>Nombre del Proveedor</label>
+                <div class="input-wrapper">
+                    <i class="bi bi-person"></i>
+                    <input type="text" id="name" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Descripción</label>
+                <div class="input-wrapper">
+                    <i class="bi bi-chat-square-text"></i>
+                    <input type="text" id="descripcion" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-save" id="btn-submit">
+                Guardar Registro
+            </button>
+        </form>
+    </div>
+</div>
